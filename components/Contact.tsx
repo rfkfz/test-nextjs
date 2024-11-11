@@ -35,7 +35,7 @@ export const Contact = () => {
                             </p>
                             <a
                                 href="#contact"
-                                onClick={(e) => window.open("tel:+6282146688703", "_blank")}
+                                onClick={() => window.open("tel:+6282146688703", "_blank")}
                                 className='text-xl sm:text-2xl font-semibold hover:text-purple-400 transition duration-300 flex items-center gap-2'
                             >
                                 (+62) 821 4668 8703
@@ -47,7 +47,7 @@ export const Contact = () => {
                             <p className='text-base sm:text-lg text-gray-300'>Email</p>
                             <a
                                 href="#contact"
-                                onClick={(e) => window.open("mailto:rifkifauzi.versia@gmail.com", "_blank")}
+                                onClick={() => window.open("mailto:rifkifauzi.versia@gmail.com", "_blank")}
                                 className='text-xl sm:text-2xl font-semibold hover:text-purple-400 transition duration-300 flex items-center gap-2'
                             >
                                 rifkifauzi.versia@gmail.com
